@@ -2,8 +2,11 @@ import java.util.Arrays;
 
 class Notes {
 	public static void main(String[] args) {
+		Card card=new Card("Ace", "Hearts");
+		Card card2=new Card("King", "Spades");
+		System.out.println(card.compareTo(card2));
 
-		Table[] tables = new Table[5];
+		/*Table[] tables = new Table[5];
 
 		tables[0] = new Table(1, 5, 3);
 		tables[1] = new Table(5, 2, 2);
@@ -82,5 +85,6 @@ class Notes {
 
 	public static void moveAnimal(Moveable m) {
 		m.move();
-	}
+	}*/
+}
 }
